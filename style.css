@@ -1,0 +1,29 @@
+#countLable{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    color: #060f48;
+    font-family: Times, 'Times New Roman', serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#btnContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btns{
+    padding: 10px 30px;
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #060f48;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 500ms;
+    border: none;
+}
+
+.btns:hover{
+    background-color: #1c188d;
+}
